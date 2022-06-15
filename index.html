@@ -1,0 +1,42 @@
+<!-- boilerplate html code with nothing in it-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Invalidle</title>
+</head>
+<body>
+    <h1>Invalidle</h1>
+    <div id="above-game">
+        <div id="description">
+            <p>Wordle is a game where you try to make words out of letters. This is wordle but invalid words are guessed instead.</p>
+            <p>The game is played by typing words into the text box. If the word is valid, it is added to the list of invalid words. If the word is invalid, it is added to the list of valid words.</p>
+            <p>The game wins when the list of invalid words is full.</p>
+            <p>The game loses when the list of valid words is full.</p>
+        </div>
+        <div id="controls">
+            <p>Controls:</p>
+            <ul>
+                <li>Type a word into the text box.</li>
+                <li>Press the submit button to add the word to the list of invalid words.</li>
+                <li>Press the reset button to clear the text box.</li>
+                <li>Press the reset button to clear the list of invalid words.</li>
+                <li>Press the reset button to clear the list of valid words.</li>
+            </ul>
+        </div>
+        <div id="new-game">
+            <button id="new-game-button">New Game</button>
+        </div>
+    </div>
+    <div id="game-board">
+        <div id="game-board-row">
+            <div id="keyboard">
+                <!-- dynamically generated keyboard -->
+                
+            </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/word-manager.js"></script>
+    <script src="js/grid.js"></script>
+</html>
